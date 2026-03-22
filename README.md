@@ -1,7 +1,8 @@
 # Digital Signal Processing in Python
 
 A collection of Python functions for audio and image processing.
-Full documentation can be found in the docstrings within each Python file.
+Full documentation can be found in the docstrings within each file.
+
 ---
 
 ## Project contents
@@ -19,6 +20,7 @@ audio_ext.py      # Spectral envelope transfer (cross-synthesis)
 ### `segment.py` — Edge-Based Image Segmentation
 
 Segments an image into foreground and background using a custom Canny edge detection pipeline, optimised for natural scenes.
+
 > **Assumption:** The background is connected to the top image border — typical for landscapes and objects in nature.
 
 **Segmentation pipeline:**
